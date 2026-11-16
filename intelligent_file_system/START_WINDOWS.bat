@@ -1,0 +1,1 @@
+@echo off\r\npy -m venv .venv\r\ncall .venv\\Scripts\\activate\r\npy -m pip install -r requirements.txt\r\npy run.py\r\npause\r\n
